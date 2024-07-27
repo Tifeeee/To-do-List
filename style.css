@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightslategray;
+    font-family: Arial, sans-serif;
+}
+
+#my_container {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.firstText {
+    text-decoration: underline;
+    padding: 10px;
+    color: navy;
+    border-radius: 5px;
+}
+
+#inputOne,
+#inputTwo,
+#newTodoInput,
+#newDescInput {
+    width: calc(100% - 30px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+
+#submitButton {
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    width: calc(100% - 40px);
+    margin: 20px auto;
+    background-color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: navy;
+}
+
+.card-text {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.editBtn,
+.deleteBtn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editBtn {
+    border: 2px solid goldenrod;
+    background-color: white;
+    color: goldenrod;
+}
+
+.deleteBtn {
+    border: 2px solid crimson;
+    background-color: white;
+    color: crimson;
+}
+
+#show {
+    padding: 20px;
+}
+
+.goBackLink {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: navy;
+    font-weight: bolder;
+    display: block;
+}
+
+.todoList {
+    text-align: center;
+    color: white;
+}
+
+.goToList {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    font-weight: bold;
+}
